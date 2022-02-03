@@ -1,0 +1,130 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@font-face {
+    font-family: Geometria;
+    src: url("../fonts/Geometria.woff2") format("woff2"), url("../fonts/Geometria.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Geometria;
+    src: url("../fonts/Geometria-Bold.woff2") format("woff2"), url("../fonts/Geometria-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Geometria;
+    src: url("../fonts/Geometria-ExtraLightItalic.woff2") format("woff2"),
+        url("../fonts/Geometria-ExtraLightItalic.woff") format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+body {
+    font-family: "Comforter";
+    font-size: 16px;
+}
+.menu {
+    font-family: "lato";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-decoration: underline;
+    line-height: 2;
+}
+h1,
+h2 {
+    font-family: "geometria";
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+mark {
+    color: cadetblue;
+}
+ul {
+    color: cyan;
+}
+.link {
+    color: yellowgreen;
+}
+.link-2 {
+    color: red;
+}
+#section {
+    color: indianred;
+}
+.text {
+    font-family: "lato";
+    font-weight: 400;
+    color: rgba(60, 179, 114, 0.801);
+    text-align: justify;
+    text-shadow: 5px 5px 20px royalblue;
+}
+span {
+    color: slateblue;
+}
+span.name {
+    color: tomato;
+}
+p span {
+    color: violet;
+}
+#section-2 {
+    color: lightseagreen;
+}
+.text.paragraph {
+    font-family: "geometria", serif;
+    font-weight: 200;
+    font-style: italic;
+    color: tan;
+    text-align: justify;
+    text-shadow: 5px 5px 20px coral;
+}
+#section-3 {
+    color: wheat;
+}
+.text .text-3 {
+    font-family: comforter, cursive;
+    color: salmon;
+    text-align: justify;
+    text-shadow: 5px 5px 20px teal;
+}
+#section-4 {
+    color: slategray;
+}
+.text-4 {
+    font-family: geometria;
+    font-weight: 900;
+    color: sandybrown;
+    text-align: justify;
+    text-shadow: 5px 5px 20px red;
+    text-transform: capitalize;
+}
+#section-5 {
+    color: seagreen;
+    text-decoration: line-through;
+}
+#section-6 {
+    color: violet;
+}
+[class*="_text"] {
+    font-family: lato;
+    font-weight: 900;
+    font-style: normal;
+    color: royalblue;
+    text-align: justify;
+    text-shadow: -5px -5px 20px yellowgreen;
+    word-spacing: 20px;
+}
+footer {
+    font-family: comforter;
+    font-weight: 400;
+    color: yellowgreen;
+    text-align: center;
+}
